@@ -2,12 +2,17 @@
     font-size: xx-large;
 }
 
+.icon:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .active-up{
     color:green ;
     font-weight: bold;
 }
 
 .active-down{
-    color: red ;
+    color: red;
     font-weight: bold;
 }

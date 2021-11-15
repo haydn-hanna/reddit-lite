@@ -11,7 +11,7 @@ export function Posts(){
 
     console.log(jsonPosts)
     if(isLoading){
-        for(var i=0;i<4;i++){
+        for(var i=0;i<25;i++){
             posts.push(<PostLoading />)
         }
     }else{
