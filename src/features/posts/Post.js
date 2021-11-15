@@ -9,7 +9,7 @@ export const Post = (props)=>{
             <div className="flipCardInner">
                 <div className="flipCardFront">
                     <h1 className="title">{title}</h1>
-                    <Image src={url} />
+                    <Image alt="" src={url} />
                     <p>{subreddit_name_prefixed} </p>
                     <p className="author">{author}</p>
                     

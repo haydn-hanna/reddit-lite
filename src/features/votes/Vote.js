@@ -31,6 +31,8 @@ export const Vote = (props)=>{
                     return <TiArrowDownThick className="icon active-down"/>
                 }
                 return <TiArrowDownOutline className="icon" onClick={()=>handleVote('down')}/>
+            default:
+                return null;
         }
     }
 

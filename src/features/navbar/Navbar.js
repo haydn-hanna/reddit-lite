@@ -13,7 +13,7 @@ export function Navbar(){
     return(
         <div className="navContainer">
             <div className="col">
-                <img src='reddit-logo.png' />
+                <img alt="Reddit logo" src='reddit-logo.png' />
             </div>
             <div className="col">
                 <form onSubmit={onFormSubmit}>
