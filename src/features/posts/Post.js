@@ -24,6 +24,6 @@ export const Post = (props)=>{
 
 const Image = (props)=>{
     const source = props.src
-    if(source.substring(source.length-3)==='png'||source.substring(source.length-3)==='jpg'){return <img src={props.src}/>}
+    if(source.substring(source.length-3)==='png'||source.substring(source.length-3)==='jpg'){return <img alt="" src={props.src}/>}
     return null
 }
