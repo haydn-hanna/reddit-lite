@@ -1,0 +1,25 @@
+.navContainer{
+    display:flex;
+    flex-flow:row wrap;
+    width:100%;
+    min-height:60px;
+    background: rgb(58, 58, 58);
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:10px;
+    position:fixed;
+    z-index: 1;
+    top:0px;
+    box-shadow:-5px 2px 10px;
+}
+
+.col img{
+    max-height:80px;
+}
+
+.col{
+    flex:1;
+    min-width: 300px;
+    text-align: center;
+}

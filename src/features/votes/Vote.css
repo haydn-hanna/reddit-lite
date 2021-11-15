@@ -1,0 +1,13 @@
+.icon{
+    font-size: xx-large;
+}
+
+.active-up{
+    color:green ;
+    font-weight: bold;
+}
+
+.active-down{
+    color: red ;
+    font-weight: bold;
+}
